@@ -1,4 +1,3 @@
-import React from "react";
 import FadeInScrollWrapper from "../fadeInScrollWrapper";
 
 const Hero = () => {

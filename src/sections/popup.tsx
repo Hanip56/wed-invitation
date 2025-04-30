@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 const Popup = ({ handleOpen }: { handleOpen: () => void }) => {
