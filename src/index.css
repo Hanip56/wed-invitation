@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-cormorant-garamond: "Cormorant Garamond", serif;
+  --font-allison: "Allison", serif;
+  --font-ibm-plex-sans: "IBM Plex Sans", serif;
+}
