@@ -8,8 +8,8 @@ const Hero = () => {
         Kepada Yth. <br />
         Bapak/ibu/Saudara/i
       </h3> */}
-        <div className="w-full h-[90vh] bg-[url(/wed.jpg)] bg-no-repeat bg-cover bg-center relative mb-[8vh]">
-          <div className="h-96 bg-gradient-to-b from-transparent to-white absolute left-0 bottom-0 w-full"></div>
+        <div className="w-full h-[70vh] bg-[url(/wed.jpg)] bg-no-repeat bg-cover bg-center relative mb-[8vh]">
+          <div className="h-80 bg-gradient-to-b from-transparent to-white absolute left-0 bottom-0 w-full"></div>
 
           <div className="absolute left-0 -bottom-[10vh] w-full p-6">
             <h1 className="text-6xl tracking-tight text-center">

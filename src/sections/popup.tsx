@@ -33,7 +33,7 @@ const Popup = ({ handleOpen }: { handleOpen: () => void }) => {
           </div>
           <h3 className="text-3xl underline">{to}</h3>
           <button
-            className="bg-white py-2 px-4 rounded-full text-black font-ibm-plex-sans uppercase text-xs disabled:opacity-80 mt-4 flex items-center"
+            className="bg-white py-2 px-4 rounded-full text-black font-ibm-plex-sans uppercase text-xs disabled:opacity-80 mt-4 flex items-center cursor-pointer"
             onClick={handleBukaUndangan}
           >
             <span>

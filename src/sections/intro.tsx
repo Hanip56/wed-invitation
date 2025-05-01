@@ -1,6 +1,11 @@
 import FadeInScrollWrapper from "../fadeInScrollWrapper";
 
 const Intro = () => {
+  const latitude = -7.220348;
+  const longitude = 107.52167;
+
+  const googleMapsUrl = `https://www.google.com/maps?q=${latitude},${longitude}`;
+
   return (
     <>
       <FadeInScrollWrapper>
@@ -58,9 +63,17 @@ const Intro = () => {
             </div>
             <p className="mt-6">Bertempat di Kp. Citamiang RT 03/RW 05</p>
             <div className="flex justify-center mt-6">
-              <button className="bg-black py-2 px-4 rounded-full text-white uppercase text-[0.7rem]">
-                Lihat di map
-              </button>
+              <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
+                <button className="flex bg-black py-2 px-4 rounded-full text-white uppercase text-[0.7rem] cursor-pointer">
+                  <span>
+                    <img
+                      src="/location-icon.png"
+                      className="size-4 shrink-0 mr-2"
+                    />
+                  </span>{" "}
+                  Lihat di map
+                </button>
+              </a>
             </div>
           </div>
         </div>

@@ -150,9 +150,12 @@ const Comments = () => {
             <button
               type="submit"
               disabled={isLoading}
-              className="bg-black py-2 px-4 rounded-full text-white uppercase text-[0.7rem] disabled:opacity-80"
+              className="flex bg-black py-2 px-4 rounded-full text-white uppercase text-[0.7rem] disabled:opacity-80 cursor-pointer"
             >
               Kirim
+              <span>
+                <img src="/send-icon.png" className="size-4 shrink-0 ml-2" />
+              </span>{" "}
             </button>
           </div>
         </form>
